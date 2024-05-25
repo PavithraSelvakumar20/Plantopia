@@ -11,6 +11,7 @@ export const  Home = () =>
     <Link className="no-underline hover:text-green-500 text-3xl text-black mt-[2%]" to='/About'>About</Link>
     <Link className="no-underline hover:text-green-500 text-3xl text-black mt-[2%]" to='/Guidelines'>Guidelines</Link>
     <Link className="no-underline hover:text-green-500 text-3xl text-black mt-[2%]" to='/Shop'>Shop</Link>
+    <Link className="no-underline hover:text-green-500 text-3xl text-black mt-[2%]" to='/Contact'>Contact</Link>
           </div>
     <div>
         <img src={homebg} className="absolute top-[2%] left-[4%] h-[100%] rounded-[50px]"/> 
