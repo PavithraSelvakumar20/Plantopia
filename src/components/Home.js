@@ -6,7 +6,7 @@ export const  Home = () =>
     {
     return(
         <div>
-    <div className="absolute top-[-2%] left-[0%] h-[10%] w-full flex justify-center gap-[7%] z-10" >
+    <div className="fixed top-[-2%] left-[0%] h-[10%] w-full flex justify-center gap-[7%] z-10  bg-lime-100" >
     <Link className="no-underline hover:text-green-500 text-3xl text-black mt-[2%]" to='/'>Home</Link>
     <Link className="no-underline hover:text-green-500 text-3xl text-black mt-[2%]" to='/About'>About</Link>
     <Link className="no-underline hover:text-green-500 text-3xl text-black mt-[2%]" to='/Guidelines'>Guidelines</Link>
@@ -14,7 +14,7 @@ export const  Home = () =>
     <Link className="no-underline hover:text-green-500 text-3xl text-black mt-[2%]" to='/Contact'>Contact</Link>
           </div>
     <div>
-        <img src={homebg} className="absolute top-[2%] left-[4%] h-[100%] rounded-[50px]"/> 
+        <img src={homebg} className="absolute top-[2%] left-[4%] h-[100%] mt-[70px] rounded-[50px]"/> 
 
 </div>
 <footer className="bg-neutral-400 absolute top-[110%] left-[0%] h-[9%] w-[100%] p-[1%] rounded-[10px]">
